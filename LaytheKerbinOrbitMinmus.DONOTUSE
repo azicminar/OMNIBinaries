@@ -1,0 +1,52 @@
+@Kopernicus:FINAL:NEEDS[Kopernicus]
+{
+	@Body[Laythe]
+	{
+		@Orbit
+		{
+			%referenceBody = Minmus
+			inclination = 0
+			eccentricity = 0
+			semiMajorAxis = 8000000
+			longitudeOfAscendingNode = 0
+			argumentOfPeriapsis = 0
+			meanAnomalyAtEpoch = 0
+			epoch = 1
+			%tidallyLocked = True
+		}
+		@Properties
+		{
+			%radius = 600000
+			%geeASL = 1
+		}
+	}
+	@Body[Minmus]
+	{
+		@Orbit
+		{
+			%referenceBody = Sun
+			inclination = 0
+			eccentricity = 0
+			semiMajorAxis = 13599840256
+			longitudeOfAscendingNode = 0
+			argumentOfPeriapsis = 0
+			meanAnomalyAtEpoch = 0
+
+		}
+	}
+	@Body[Kerbin]
+	{
+		@Orbit
+		{
+			%referenceBody = Minmus
+			inclination = 0
+			eccentricity = 0
+			semiMajorAxis = 8000000
+			longitudeOfAscendingNode = 0
+			argumentOfPeriapsis = 0
+			meanAnomalyAtEpoch = 3
+			epoch = 1
+			%tidallyLocked = True
+		}
+	}
+}
